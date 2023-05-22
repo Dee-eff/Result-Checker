@@ -1,0 +1,241 @@
+/*# sourceMappingURL=main.css.map */
+@import url(https://fonts.google.com/specimen/Hanken+Grotesk);
+html {
+    background: rgb(240, 237, 237);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.body {
+    margin: auto;
+    padding: 1rem;
+    box-sizing: border-box;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.main-body {
+    box-shadow: 10px 10px 10px gray;
+    width: 500px;
+    
+    border-radius: 20px;
+}
+.your-result {
+    color: hsl(0, 0%, 100%);
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+    padding: 1rem;
+    border-radius: 20px;
+    height: 350px;
+    
+}
+
+.score {
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: auto;
+    padding: 10px;
+    
+    
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+.total-score {
+    color: hsla(0, 0%, 100%, 0.6);
+    margin: 0;
+}
+.summary{
+    display: inline-block;
+    width: 200px;
+    border-radius: 20px;
+    background: white;
+}
+
+
+.reation-score {
+  background: hsla(0, 100%, 67%, 0.2);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.memory-score {
+  background: hsla(39, 100%, 56%, 0.2);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.icon-img {
+    margin-right: 5px
+}
+.verbal-score {
+  background: hsla(166, 100%, 37%, 0.2);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.visual-score {
+  background: hsla(252, 100%, 67%, 0.2);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.memory {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+
+
+
+.continue-link {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    padding: 1rem;
+    margin: 2rem 0.5rem;
+    border-radius: 20px;
+    height: 15px;
+    text-align: center;
+    width: 200px;
+}
+.btn{
+    color: white;
+    text-decoration: none;
+    
+}
+
+p {
+    font-size: 15px;
+}
+
+
+.summary-head{
+    text-align: left;
+    margin: 10px;
+    padding: 10px 0;
+}
+
+.score-80{
+    font-weight: bold;
+}
+
+.scores {
+    
+    text-align: right;
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (max-width: 600px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .main-body{
+        box-shadow: 0 0;
+    }
+    .your-result{
+        display: block;
+        width: 468px;
+    }
+    h3{
+        margin-bottom: 0;
+        font-size: 25px;
+    }
+    .compliment{
+        width: 300px;
+        text-align: center;
+        margin: auto;
+        font-size: 18px;
+    }
+
+    .summary{
+        width: 468px;
+    }
+    .reation-score {
+        background: hsla(0, 100%, 67%, 0.2);
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        width: 468px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .memory-score {
+        background: hsla(39, 100%, 56%, 0.2);
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        width: 468px;
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        
+      }
+      .icon-img {
+          margin-right: 5px
+      }
+      .verbal-score {
+        background: hsla(166, 100%, 37%, 0.2);
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        width: 468px;
+        display: flex;
+        align-items: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .visual-score {
+        background: hsla(252, 100%, 67%, 0.2);
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        width: 468px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+  }
+  .continue-link{
+    width: 455px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}
